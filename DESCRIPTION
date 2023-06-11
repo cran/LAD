@@ -1,0 +1,31 @@
+Package: LAD
+Type: Package
+Title: Derive Leaf Angle Distribution (LAD) from Measured Leaf
+        Inclination Angles
+Version: 0.1.0
+Authors@R: 
+  c(person(given="Francesco",
+          family="Chianucci",
+          email="fchianucci@gmail.com",
+          role = c("aut", "cre"),
+          comment = c(ORCID = "0000-0002-5688-2060")),
+    person(given="Lorenzo", 
+          family="Cesaretti",
+          email="lorenzo.cesaretti@crea.gov.it",
+          role = c("aut")))
+Maintainer: Francesco Chianucci <fchianucci@gmail.com>
+Description: Calculate mean statistics and leaf angle distribution type from measured leaf inclination angles. LAD distribution is fitted using a two-parameters (mu, nu) Beta distribution and compared with six theoretical LAD distributions. Additional information is provided in Chianucci and Cesaretti (2022) <doi:10.1101/2022.10.28.513998>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.2
+Imports: cowplot, dplyr, ggplot2, magrittr, purrr, rlang, stats, tidyr,
+        tidyselect, utils
+Depends: R (>= 2.10)
+NeedsCompilation: no
+Packaged: 2023-06-10 16:58:48 UTC; francescochianucci
+Author: Francesco Chianucci [aut, cre]
+    (<https://orcid.org/0000-0002-5688-2060>),
+  Lorenzo Cesaretti [aut]
+Repository: CRAN
+Date/Publication: 2023-06-11 11:30:04 UTC

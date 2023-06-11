@@ -1,0 +1,11 @@
+citHeader("To cite LAD in publications use:")
+
+bibentry(
+bibtype = "Article",
+  title = "LAD: an R package to estimate leaf angle distribution from measured leaf inclination angles",
+  author = c(person("Francesco","Chianucci"),
+             person("Lorenzo","Cesaretti")),
+  year = 2022,
+  journal= "bioRxiv",
+  url = " https://doi.org/10.1101/2022.10.28.513998")
+
